@@ -53,7 +53,7 @@ export default {
   ex31: "",
   tex32: "Stacked 100% Column Chart",
   ex32: "",
-  sec1: "Karşılaştırma",
+  sec1: "Comparison",
   sec2: "Relationship",
   sec3: "Composition",
   sec4: "Distribution",

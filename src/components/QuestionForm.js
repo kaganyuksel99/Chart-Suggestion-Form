@@ -444,7 +444,7 @@ const QuestionForm = ({
                         onClick={handleComparison}
                         sx={{ mt: 1, mr: 1 }}
                       >
-                        {"Karşılaştırma"}
+                        {t("sec1")}
                       </Button>
                       <Button
                         className="btn1"
@@ -453,7 +453,7 @@ const QuestionForm = ({
                         onClick={handleRelationship}
                         sx={{ mt: 1, mr: 1 }}
                       >
-                        {"İlişki"}
+                        {"İlişkiAS"}
                       </Button>
                       <Button
                         className="btn1"
