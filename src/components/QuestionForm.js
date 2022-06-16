@@ -453,7 +453,7 @@ const QuestionForm = ({
                         onClick={handleRelationship}
                         sx={{ mt: 1, mr: 1 }}
                       >
-                        {"İlişkiAS"}
+                        {t("sec2")}
                       </Button>
                       <Button
                         className="btn1"
@@ -462,7 +462,7 @@ const QuestionForm = ({
                         onClick={handleComposition}
                         sx={{ mt: 1, mr: 1 }}
                       >
-                        {"Bileşim"}
+                        {t("sec3")}
                       </Button>
                       <Button
                         className="btn1"
@@ -471,7 +471,7 @@ const QuestionForm = ({
                         onClick={handleDistribution}
                         sx={{ mt: 1, mr: 1 }}
                       >
-                        {"Dağıtım"}
+                        {t("sec4")}
                       </Button>
                     </>
                   )}
@@ -863,7 +863,7 @@ const QuestionForm = ({
                     color="error"
                     sx={{ mt: 1, mr: 1 }}
                   >
-                    {"Temizle"}
+                    {t("sec5")}
                   </Button>
                 </Grid>
                 {/* <Grid item xs={2} justifyContent="center" align="start">

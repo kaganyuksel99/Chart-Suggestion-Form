@@ -30,6 +30,7 @@ import SimpleRadarChart from "../../components/SimpleRadarChart";
 import PercentAreaChart from "../../components/PercentAreaChart";
 import LineHistogram from "../../components/LineHistogram";
 import KeepMountedModal from "../../components/KeepMountedModal";
+import HistogramChart from "../../components/HistogramChart";
 import i18n from "../../constants/i18n";
 
 const Home = () => {
@@ -180,7 +181,7 @@ const Home = () => {
                       {t("tex31")}
                     </Typography>
                     <Typography style={{}} className="description">
-                      {t("ex21")}
+                      {t("ex31")}
                     </Typography>
                   </Grid>
                   <KeepMountedModal
@@ -223,18 +224,18 @@ const Home = () => {
                       style={{ fontSize: "28px" }}
                       className="description"
                     >
-                      {t("tex21")}
+                      {t("tex32")}
                     </Typography>
                     <Typography style={{}} className="description">
-                      {t("ex21")}
+                      {t("ex32")}
                     </Typography>
                   </Grid>
                   <KeepMountedModal
                     bold="true"
-                    title="Stacked 100% Column Char"
+                    title={t("tex32")}
                     description="%100 yığılmış sütun grafiği, yığılmış sütunların toplamının (kümülatif) her zaman %100'e eşit olduğu, yığılmış sütunlarda birden çok veri serisinin göreli yüzdesini göstermesi amaçlanan bir Excel grafik türüdür. %100 yığılmış sütun grafiği, zaman içinde parçadan bütüne oranları gösterebilir, örneğin bölge başına üç aylık satışların oranı veya faize karşı anaparaya giden aylık ipotek ödemesinin oranı."
                     url={
-                      "https://www.edrawsoft.com/chart/images/single-bar-chart-products.png"
+                      "https://support.content.office.net/tr-tr/media/442d0e69-6716-420c-a8a9-75f580a5a5d7.png"
                     }
                   />
                 </Box>
@@ -259,7 +260,7 @@ const Home = () => {
                     shadow={5}
                   >
                     <Grid className="chartContainer">
-                      <StackedBarChart />
+                      <StackedBar />
                     </Grid>
                   </Paper>
 
@@ -269,15 +270,15 @@ const Home = () => {
                       style={{ fontSize: "28px" }}
                       className="description"
                     >
-                      {t("tex21")}
+                      {t("tex33")}
                     </Typography>
                     <Typography style={{}} className="description">
-                      {t("ex21")}
+                      {t("ex33")}
                     </Typography>
                   </Grid>
                   <KeepMountedModal
                     bold="true"
-                    title="Stacked Column Chart"
+                    title={t("tex33")}
                     description="Yığılmış Sütun Grafiği, birbiri üzerine dikey olarak yığılmış birkaç sütun serisinden oluşur. Her serinin uzunluğu, her veri noktasındaki değere göre belirlenir.
 
                     Yığılmış Sütun Grafikleri, çeşitli değişkenlerin her birinin ve toplamlarının nasıl değiştiğini aynı anda gözlemlemeniz gerekiyorsa mükemmel bir seçenektir."
@@ -317,27 +318,18 @@ const Home = () => {
                       style={{ fontSize: "28px" }}
                       className="description"
                     >
-                      {t("tex21")}
+                      {t("tex34")}
                     </Typography>
                     <Typography style={{}} className="description">
-                      {t("ex21")}
+                      {t("ex34")}
                     </Typography>
                   </Grid>
                   <KeepMountedModal
                     bold="true"
-                    title="BAŞLIK"
-                    description="Çizgi Grafiği Nedir ve Nerelerde Kullanılır?
-
-                    İnsanlar tarafından çok fazla merak edilen çizgi grafiği çok önemli bir konu olarak karşımıza çıkıyor. Bu doğrultuda çizgi grafiğinin ne olduğu açıklaması: Kısaca devamlı olarak değişen verilerin eğilimlerinin belirli aralıklar ile gösterilmiş olduğu grafiğe çizgi grafiği denir.
-                    
-                    Yatay ve düşey eksendeki sürekliliği olan verilerin değerlerini işaretleyerek, bu işaretli olan noktaların düz çizgiler ile birleştirilmesi neticesinde ortaya çıkan grafik türüne çizgi grafiği denilmektedir.
-                    
-                    Çizgi grafiği aralıksız bir şekilde devam eden verilerin gösterildiği zamanlarda kullanılmaktadır.
-                    Çizgi grafiği mevcut verilerin zaman aralığı içerisinde göstermiş olduğu değişiklikleri göstermek amacı doğrultusunda kullanılır. Ortaya çıkan bu veri değişikliklerini görsel şekilde daha kolay ve anlaşılır bir formda göstermek amacıyla kullanılır. Özellikle de aylar, çeyrekler yahut mali yıllar gibi verilerin zaman içerisinde değişim gösterdiği durumlarda çizgi grafiği kullanımı söz konusudur.
-                    
-                    Çizgi grafiği; Ay, Çeyrek yahut mali yıl gibi düzenli olan dağılmış verileri göstermek amacıyla kullanılır. Yıl gibi bir zaman aralığını temsil eden bir birkaç, eşit olan aralıklı sayısal etiketlerin kullanılması durumunda kullanılır. Tarihleri belirli aralıklar ile ya da gün, ay yahut yıl, sayısı gibi temel birimleri görüntülemek amacı doğrultusunda çizgi grafik kullanılır."
+                    title={t("tex34")}
+                    description="% 100 Yığılmış Alan Grafiği, verilerin alan olarak çizildiği ve kümülatif alanın her zaman% 100'ü temsil edecek şekilde yığıldığı yerleşik bir Excel grafik türüdür. Yığılmış Alan grafikleri zaman içinde bir ilerleme ve kompozisyon gösterebilir ve% 100 Yığılmış Alan Grafiği, kümülatif toplam önemli olmadığında her bileşenin katkıda bulunduğu yüzdeyi göstermek içindir."
                     url={
-                      "https://www.edrawsoft.com/chart/images/single-bar-chart-products.png"
+                      "https://cdn.wiki-base.com/2909820/100_stacked_area_chart_.png.webp"
                     }
                   />
                 </Box>
@@ -372,27 +364,20 @@ const Home = () => {
                       style={{ fontSize: "28px" }}
                       className="description"
                     >
-                      {t("tex21")}
+                      {t("tex35")}
                     </Typography>
                     <Typography style={{}} className="description">
-                      {t("ex21")}
+                      {t("ex35")}
                     </Typography>
                   </Grid>
                   <KeepMountedModal
                     bold="true"
-                    title="BAŞLIK"
-                    description="Çizgi Grafiği Nedir ve Nerelerde Kullanılır?
+                    title={t("tex35")}
+                    description="İstiflenmiş / Yığılı Alan Grafikleri, önceki grafik dizisinin bıraktığı noktadan her noktaya başlamak üzere basit Alan Grafiklerinde olduğu gibi çalışır, tek farkı birden çok veri serisinin görselleştirilmesidir.
 
-                    İnsanlar tarafından çok fazla merak edilen çizgi grafiği çok önemli bir konu olarak karşımıza çıkıyor. Bu doğrultuda çizgi grafiğinin ne olduğu açıklaması: Kısaca devamlı olarak değişen verilerin eğilimlerinin belirli aralıklar ile gösterilmiş olduğu grafiğe çizgi grafiği denir.
-                    
-                    Yatay ve düşey eksendeki sürekliliği olan verilerin değerlerini işaretleyerek, bu işaretli olan noktaların düz çizgiler ile birleştirilmesi neticesinde ortaya çıkan grafik türüne çizgi grafiği denilmektedir.
-                    
-                    Çizgi grafiği aralıksız bir şekilde devam eden verilerin gösterildiği zamanlarda kullanılmaktadır.
-                    Çizgi grafiği mevcut verilerin zaman aralığı içerisinde göstermiş olduğu değişiklikleri göstermek amacı doğrultusunda kullanılır. Ortaya çıkan bu veri değişikliklerini görsel şekilde daha kolay ve anlaşılır bir formda göstermek amacıyla kullanılır. Özellikle de aylar, çeyrekler yahut mali yıllar gibi verilerin zaman içerisinde değişim gösterdiği durumlarda çizgi grafiği kullanımı söz konusudur.
-                    
-                    Çizgi grafiği; Ay, Çeyrek yahut mali yıl gibi düzenli olan dağılmış verileri göstermek amacıyla kullanılır. Yıl gibi bir zaman aralığını temsil eden bir birkaç, eşit olan aralıklı sayısal etiketlerin kullanılması durumunda kullanılır. Tarihleri belirli aralıklar ile ya da gün, ay yahut yıl, sayısı gibi temel birimleri görüntülemek amacı doğrultusunda çizgi grafik kullanılır."
+                    Grafiğin tamamı gösterilen tüm verilerin toplamını temsil eder. İstiflenmiş/ yığılmış alan grafikleri de alanı tam sayıları iletmek için kullanır, bu nedenle negatif değerler için kullanılmazlar. Genel olarak, bir aralıkta değişen çoklu değişkenleri karşılaştırmak için kullanışlıdırlar."
                     url={
-                      "https://www.edrawsoft.com/chart/images/single-bar-chart-products.png"
+                      "https://datavizcatalogue.com/TR/yontemleri/images/top_images/SVG/istiflenmis_yigili_alan_grafigi.svg"
                     }
                   />
                 </Box>
@@ -427,15 +412,15 @@ const Home = () => {
                       style={{ fontSize: "28px" }}
                       className="description"
                     >
-                      {t("tex21")}
+                      {t("tex36")}
                     </Typography>
                     <Typography style={{}} className="description">
-                      {t("ex21")}
+                      {t("ex36")}
                     </Typography>
                   </Grid>
                   <KeepMountedModal
                     bold="true"
-                    title="Pie Chart"
+                    title={t("tex36")}
                     description="Pasta Grafiği, verileri dairesel grafikte görüntüleyen bir grafik türüdür. Grafiğin parçaları, her kategorideki bütünün kesiriyle orantılıdır. Başka bir deyişle, pastanın her dilimi bir bütün olarak gruptaki o kategorinin boyutuna göredir. Tüm 'pasta' bir bütünün yüzde 100'ünü temsil ederken, pasta (dilimleri) bütünün bölümlerini temsil eder."
                     url={
                       "https://www.oguzhantas.com/image/userfiles/images/GooglePASTAGrafik-GooglePieCharts.png"
@@ -478,18 +463,18 @@ const Home = () => {
                       style={{ fontSize: "28px" }}
                       className="description"
                     >
-                      {t("tex21")}
+                      {t("tex37")}
                     </Typography>
                     <Typography style={{}} className="description">
-                      {t("ex21")}
+                      {t("ex37")}
                     </Typography>
                   </Grid>
                   <KeepMountedModal
                     bold="true"
-                    title="Watefall Chart"
+                    title={t("tex37")}
                     description="Şelale grafiği, bir şeyin iki nokta arasındaki değerindeki net değişimin ardındaki hikayeyi ortaya çıkaran belirli bir çubuk grafik türüdür. Şelale grafiği, yalnızca bir çubukta bir başlangıç değeri ve ikinci bir çubukta bir bitiş değeri göstermek yerine, bu net değişime katkıda bulunan tüm benzersiz bileşenleri bir araya getirir ve bunları tek tek görselleştirir."
                     url={
-                      "https://images.squarespace-cdn.com/content/v1/55b6a6dce4b089e11621d3ed/1605220080143-VMWQJGGXH8DYZZGKTE16/Chart_WaterfallLarge.png?format=500w"
+                      "https://help.qlik.com/tr-TR/sense/May2022/Subsystems/Hub/Content/Resources/Images/ui_gen_waterfall.png"
                     }
                   />
                 </Box>
@@ -514,7 +499,12 @@ const Home = () => {
                     shadow={5}
                   >
                     <Grid className="chartContainer">
-                      <StackedBarChart />
+                      <img
+                        src="http://4.bp.blogspot.com/-xm9KQKvakzI/VQ10eGpgQ4I/AAAAAAAAAQ0/rHDHcH2pbkc/s1600/stacked_column_chart.gif"
+                        alt=""
+                        style={{ height: "250px", width: "400px" }}
+                        // alt="logo"
+                      />
                     </Grid>
                   </Paper>
 
@@ -524,19 +514,17 @@ const Home = () => {
                       style={{ fontSize: "28px" }}
                       className="description"
                     >
-                      {t("tex21")}
+                      {t("tex38")}
                     </Typography>
                     <Typography style={{}} className="description">
-                      {t("ex21")}
+                      {t("ex38")}
                     </Typography>
                   </Grid>
                   <KeepMountedModal
                     bold="true"
-                    title="Stacked 100% Column Chart With Subcomponents"
+                    title={t("tex38")}
                     description="% 100 yığılmış sütun grafiği, yığılmış sütunlardaki birden çok veri serisinin göreli yüzdesini göstermek için kullanılan ve yığılmış sütunların toplamının (kümülatif) her zaman% 100'e eşit olduğu bir Excel grafik türüdür. % 100 yığılmış sütun grafiği, örneğin bölge başına üç aylık satışların oranı veya faiz ve anaparaya giden aylık ipotek ödemesinin oranı gibi zaman içindeki parça-bütün oranlarını gösterebilir."
-                    url={
-                      "http://4.bp.blogspot.com/-xm9KQKvakzI/VQ10eGpgQ4I/AAAAAAAAAQ0/rHDHcH2pbkc/s1600/stacked_column_chart.gif"
-                    }
+                    url={"http://social.microsoft.com/Forums/getfile/19420/"}
                   />
                 </Box>
               </Paper>
@@ -560,7 +548,7 @@ const Home = () => {
                     shadow={5}
                   >
                     <Grid className="chartContainer">
-                      <StackedBarChart />
+                      <HistogramChart />
                     </Grid>
                   </Paper>
 
@@ -570,15 +558,15 @@ const Home = () => {
                       style={{ fontSize: "28px" }}
                       className="description"
                     >
-                      {t("tex21")}
+                      {t("tex39")}
                     </Typography>
                     <Typography style={{}} className="description">
-                      {t("ex21")}
+                      {t("ex39")}
                     </Typography>
                   </Grid>
                   <KeepMountedModal
                     bold="true"
-                    title="Column Histogram"
+                    title={t("tex39")}
                     description="Histogram, bir grup veri noktasını kullanıcı tarafından belirtilen aralıklar halinde düzenleyen grafiksel bir gösterimdir. Bir çubuk grafiğe benzer şekilde, histogram bir veri serisini birçok veri noktası alarak ve bunları mantıksal aralıklara veya kutulara gruplayarak kolayca yorumlanabilir bir görsele yoğunlaştırır."
                     url={
                       "https://www.investopedia.com/thmb/s_P9kizceZAukOfXykrQimJmoL4=/660x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Histogram1-92513160f945482e95c1afc81cb5901e.png"
@@ -606,7 +594,7 @@ const Home = () => {
                     shadow={5}
                   >
                     <Grid className="chartContainer">
-                      <LineHistogram />
+                      <BenchmarkLine />
                     </Grid>
                   </Paper>
 
@@ -616,18 +604,18 @@ const Home = () => {
                       style={{ fontSize: "28px" }}
                       className="description"
                     >
-                      {t("tex21")}
+                      {t("tex40")}
                     </Typography>
                     <Typography style={{}} className="description">
-                      {t("ex21")}
+                      {t("ex40")}
                     </Typography>
                   </Grid>
                   <KeepMountedModal
                     bold="true"
-                    title="Line Histogram"
-                    description="Histogram, bir grup veri noktasını kullanıcı tarafından belirtilen aralıklar halinde düzenleyen grafiksel bir gösterimdir. Bir çubuk grafiğe benzer şekilde, histogram bir veri serisini birçok veri noktası alarak ve bunları mantıksal aralıklara veya kutulara gruplayarak kolayca yorumlanabilir bir görsele yoğunlaştırır."
+                    title={t("tex40")}
+                    description={t("ex40")}
                     url={
-                      "https://www.edrawsoft.com/chart/images/single-bar-chart-products.png"
+                      "https://www.mathworks.com/help/examples/stats/win64/HistogramwithaKernelSmoothingFunctionFitExample_01.png"
                     }
                   />
                 </Box>
@@ -670,8 +658,8 @@ const Home = () => {
                   </Grid>
                   <KeepMountedModal
                     bold="true"
-                    title="Dağılım Grafiği"
-                    description="Bir dağılım grafiği (aka dağılım grafiği, dağılım grafiği), iki farklı sayısal değişkenin değerlerini temsil etmek için noktaları kullanır. Yatay ve dikey eksendeki her noktanın konumu, tek bir veri noktası için değerleri belirtir. Değişkenler arasındaki ilişkileri gözlemlemek için dağılım grafikleri kullanılır."
+                    title={t("tex21")}
+                    description={t("mod1")}
                     url={
                       "https://chartio.com/assets/2477fa/tutorials/charts/scatter-plots/848a5c96881e2e6f1387e74570e16e1fad2559ed65b83aec2a66b7bb86332275/scatter-plot-example-1.png"
                     }
@@ -701,7 +689,7 @@ const Home = () => {
                       <img
                         src="http://2.bp.blogspot.com/-NgFh-mG39VU/VzscFtTSfjI/AAAAAAAAAfk/bIHDhUhkrloJp6KqNSzhZgnXtB0ktV6JQCK4B/s1600/Ads%25C4%25B1z3.jpg"
                         alt=""
-                        style={{ height: "250px", width: "550px" }}
+                        style={{ height: "250px", width: "400px" }}
                         // alt="logo"
                       />
                     </Grid>
@@ -713,15 +701,15 @@ const Home = () => {
                       style={{ fontSize: "28px" }}
                       className="description"
                     >
-                      {t("tex21")}
+                      {t("tex41")}
                     </Typography>
                     <Typography style={{}} className="description">
-                      {t("ex21")}
+                      {t("ex41")}
                     </Typography>
                   </Grid>
                   <KeepMountedModal
                     bold="true"
-                    title="3D Area Chart"
+                    title={t("tex41")}
                     description="Bir 3B alan grafiği , belirli bir süre içindeki değişim miktarını vurgular veya birden çok öğeyi karşılaştırır. 3B alan grafikleri ayrıca çizilen değerlerin toplamını görüntüleyerek parçaların bir bütünle ilişkisini de gösterir.
 
                     Alan grafiği bir çizgi grafiği biçimidir, ancak x ekseni (yatay eksen) ile veri işaretçilerini bağlayan çizgi arasındaki alan renkle doldurulur. Bu, farklı veri serilerinin kapsadığı noktaların nerede çakıştığını görmeyi kolaylaştırır."
