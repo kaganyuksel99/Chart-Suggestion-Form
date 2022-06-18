@@ -484,7 +484,7 @@ const QuestionForm = ({
                         onClick={handleStatic}
                         sx={{ mt: 1, mr: 1 }}
                       >
-                        {"Static"}
+                        {t("sec6")}
                       </Button>
                       <Button
                         className="btn1"
@@ -493,7 +493,7 @@ const QuestionForm = ({
                         onClick={handleComparisonCOT}
                         sx={{ mt: 1, mr: 1 }}
                       >
-                        {"Changing Over Time"}
+                        {t("sec7")}
                       </Button>
                     </>
                   )}
@@ -537,7 +537,7 @@ const QuestionForm = ({
                         onClick={handleComparisonCOTMP}
                         sx={{ mt: 1, mr: 1 }}
                       >
-                        {"Many Periods"}
+                        {t("sec8")}
                       </Button>
                       <Button
                         className="btn1"
@@ -546,7 +546,7 @@ const QuestionForm = ({
                         onClick={handleComparisonCOTFP}
                         sx={{ mt: 1, mr: 1 }}
                       >
-                        {"Few Periods"}
+                        {t("sec9")}
                       </Button>
                     </>
                   )}
@@ -559,7 +559,7 @@ const QuestionForm = ({
                         onClick={handleComparisonCyclical}
                         sx={{ mt: 1, mr: 1 }}
                       >
-                        {"Evet"}
+                        {t("sec10")}
                       </Button>
                       <Button
                         className="btn1"
@@ -568,7 +568,7 @@ const QuestionForm = ({
                         onClick={handleComparisonNonCyclical}
                         sx={{ mt: 1, mr: 1 }}
                       >
-                        {"Hayır"}
+                        {t("sec11")}
                       </Button>
                     </>
                   )}
@@ -581,7 +581,7 @@ const QuestionForm = ({
                         onClick={handleComparisonSingleorFewItems}
                         sx={{ mt: 1, mr: 1 }}
                       >
-                        {"Single or Few Items"}
+                        {t("sec12")}
                       </Button>
                       <Button
                         className="btn1"
@@ -590,7 +590,7 @@ const QuestionForm = ({
                         onClick={handleComparisonFPManyItems}
                         sx={{ mt: 1, mr: 1 }}
                       >
-                        {"Many Items"}
+                        {t("sec13")}
                       </Button>
                     </>
                   )}

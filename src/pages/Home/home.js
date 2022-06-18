@@ -749,15 +749,15 @@ const Home = () => {
                       style={{ fontSize: "28px" }}
                       className="description"
                     >
-                      {t("tex21")}
+                      {t("tex42")}
                     </Typography>
                     <Typography style={{}} className="description">
-                      {t("ex21")}
+                      {t("ex42")}
                     </Typography>
                   </Grid>
                   <KeepMountedModal
                     bold="true"
-                    title="Single Bar Chart"
+                    title={t("tex42")}
                     description="Tek çubuk grafikler, bir kategorideki bir öğenin ayrık değerlerini iletmek için kullanılır. Örneğin, bir çubuk grafik, belirli yaşlar için belirli bir özelliğe sahip erkek sayısını görüntüleyebilir. Bireyin belli bir özelliği vardır örnekleri de ayrı bir değer, ya da numarası, barın uzunluğunu değiştirerek görüntülenir."
                     url={
                       "https://www.edrawsoft.com/chart/images/single-bar-chart-products.png"
@@ -788,7 +788,7 @@ const Home = () => {
                       <img
                         src="https://andypope.info/charts/colwidth3.gif"
                         alt=""
-                        style={{ height: "250px", width: "550px" }}
+                        style={{ height: "250px", width: "450px" }}
                         // alt="logo"
                       />
                     </Grid>
@@ -800,15 +800,15 @@ const Home = () => {
                       style={{ fontSize: "28px" }}
                       className="description"
                     >
-                      {t("tex21")}
+                      {t("tex43")}
                     </Typography>
                     <Typography style={{}} className="description">
-                      {t("ex21")}
+                      {t("ex43")}
                     </Typography>
                   </Grid>
                   <KeepMountedModal
                     bold="true"
-                    title="Variable Width Column Chart"
+                    title={t("tex43")}
                     description="Çubuk Mekko grafiği olarak da bilinen değişken genişlikli sütun grafiği, sütun genişliklerinin, toplam genişlik istenen grafik genişliğiyle eşleşecek ve sütunlar arasında boşluk kalmayacak şekilde ölçeklendirildiği bir çubuk grafiktir. Bu grafik, verilerdeki her kategori için iki farklı değişkenin değerlerini izlemek için kullanılabilir."
                     url={
                       "https://www.dundas.com/support/images/dbi/support-articles/data-vis/variable-width-06.png"
@@ -837,6 +837,7 @@ const Home = () => {
                   >
                     <Grid className="chartContainer">
                       <ColumnGraph />
+                      <ColumnGraph />
                     </Grid>
                   </Paper>
 
@@ -846,15 +847,15 @@ const Home = () => {
                       style={{ fontSize: "28px" }}
                       className="description"
                     >
-                      {t("tex21")}
+                      {t("tex44")}
                     </Typography>
                     <Typography style={{}} className="description">
-                      {t("ex21")}
+                      {t("ex44")}
                     </Typography>
                   </Grid>
                   <KeepMountedModal
                     bold="true"
-                    title="Çoklu Çubuk Grafikler"
+                    title={t("tex44")}
                     description="Çoklu çubuk grafik, her kategorinin iki veya daha fazla çubuğa sahip olması dışında normal bir çubuk grafikten başka bir şey değildir – her alt bölüm için bir tane. Örneğin, bir ülkenin nüfusunu beş yıllık bir süre boyunca çizersek, her yıl için iki çubuk çizebiliriz – biri kadın sayısını, diğeri erkek nüfusunu gösteren çubuk. Aşağıdaki diyagram, çoklu çubuk grafiğin bir örneğini göstermektedir."
                     url={
                       "https://allthingsstatistics.com/wp-content/uploads/2022/03/Example-to-illustrate-the-definition-of-a-multiple-bar-graph.png"
@@ -885,7 +886,7 @@ const Home = () => {
                       <img
                         src="https://www.techprevue.com/wp-content/uploads/2016/12/comparison-bar-charts.jpg"
                         alt=""
-                        style={{ height: "250px", width: "550px" }}
+                        style={{ height: "250px", width: "450px" }}
                         // alt="logo"
                       />
                     </Grid>
@@ -897,15 +898,15 @@ const Home = () => {
                       style={{ fontSize: "28px" }}
                       className="description"
                     >
-                      {t("tex21")}
+                      {t("tex45")}
                     </Typography>
                     <Typography style={{}} className="description">
-                      {t("ex21")}
+                      {t("ex45")}
                     </Typography>
                   </Grid>
                   <KeepMountedModal
                     bold="true"
-                    title="Gömülü Grafiklere Sahip Tablo"
+                    title={t("tex45")}
                     description="Görselleştirme, bize izin veren her türlü grafiksel gösterimdir:
 
                     Keşif, büyük miktarda veriyle daha derin bir kavrayış elde etmemize yardımcı olur
@@ -951,15 +952,15 @@ const Home = () => {
                       style={{ fontSize: "28px" }}
                       className="description"
                     >
-                      {t("tex21")}
+                      {t("tex46")}
                     </Typography>
                     <Typography style={{}} className="description">
-                      {t("ex21")}
+                      {t("ex46")}
                     </Typography>
                   </Grid>
                   <KeepMountedModal
                     bold="true"
-                    title="Circular Area Chart"
+                    title={t("tex46")}
                     description="Örümcek veya Radar Grafiği, Dairesel Alan Grafiği olarak da bilinen bu grafik, bir öğenin puanları ve sıralamaları gibi farklı boyutları gösterir. Daha fazla dışarı noktası merkezi, daha yüksek bir kategori altında yer alıyor.
                     Dairesel alan grafikleri, çeşitli metriklerin bir işlevindeki bir boyutun üyelerini karşılaştırmanın harika bir yoludur. Örneğin, bir akıllı telefon satın almak istediğinizde, pil ömrü, kamera kalitesi ve bellek kapasitesi gibi çeşitli metriklerde birden fazla cihazı karşılaştırmak için bir radar grafiği kullanabilirsiniz.
                     "
@@ -999,15 +1000,15 @@ const Home = () => {
                       style={{ fontSize: "28px" }}
                       className="description"
                     >
-                      {t("tex21")}
+                      {t("tex47")}
                     </Typography>
                     <Typography style={{}} className="description">
-                      {t("ex21")}
+                      {t("ex47")}
                     </Typography>
                   </Grid>
                   <KeepMountedModal
                     bold="true"
-                    title="Line Chart"
+                    title={t("tex47")}
                     description="Çizgi grafiği, zaman içinde değişen bilgileri göstermek için kullanılan bir grafik türüdür. Düz çizgilerle birbirine bağlanmış birkaç nokta kullanarak çizgi grafikleri çiziyoruz. Buna çizgi grafik de diyoruz. Çizgi grafiği‘ 'x' ekseni ve 'y' ekseni olarak bilinen iki eksenden oluşur.
 
                     Yatay eksen x ekseni olarak bilinir.
@@ -1048,15 +1049,15 @@ const Home = () => {
                       style={{ fontSize: "28px" }}
                       className="description"
                     >
-                      {t("tex21")}
+                      {t("tex48")}
                     </Typography>
                     <Typography style={{}} className="description">
-                      {t("ex21")}
+                      {t("ex48")}
                     </Typography>
                   </Grid>
                   <KeepMountedModal
                     bold="true"
-                    title="Column Chart"
+                    title={t("tex48")}
                     description="Sütun grafiği, her kategorinin bir dikdörtgenle temsil edildiği ve dikdörtgenin yüksekliğinin çizilen değerlerle orantılı olduğu bir veri görselleştirmesidir. Sütun grafikleri dikey çubuk grafikler olarak da bilinir.
 
                     Aşağıdaki örnekte, her çubuğun yüksekliği, her kola türünü favori olarak listeleyen kişilerin yüzdesiyle orantılıdır."
@@ -1096,15 +1097,15 @@ const Home = () => {
                       style={{ fontSize: "28px" }}
                       className="description"
                     >
-                      {t("tex21")}
+                      {t("tex49")}
                     </Typography>
                     <Typography style={{}} className="description">
-                      {t("ex21")}
+                      {t("ex49")}
                     </Typography>
                   </Grid>
                   <KeepMountedModal
                     bold="true"
-                    title="Line Chart"
+                    title={t("tex49")}
                     description="Çizgi grafiği, zaman içinde değişen bilgileri göstermek için kullanılan bir grafik türüdür. Düz çizgilerle birbirine bağlanmış birkaç nokta kullanarak çizgi grafikleri çiziyoruz. Buna çizgi grafik de diyoruz. Çizgi grafiği‘ 'x' ekseni ve 'y' ekseni olarak bilinen iki eksenden oluşur.
 
                     Yatay eksen x ekseni olarak bilinir.
