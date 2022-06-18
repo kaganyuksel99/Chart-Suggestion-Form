@@ -131,5 +131,5 @@ export default {
     "Line charts are used to show “numerical” changes that are ongoing or December a certain time interval. When line graphs are grouped, they show trends and relationships Dec December data. These graphs also help to understand the “big picture” in terms of how events are developing and continuing. To create a line graph, it is first necessary to mark the data points in the cartesian coordinate system. Then the points between the 'x' and 'y' axis are connected by a line Dec Typically, the 'y' axis has a 'quantitative' (numerical) value, while the 'x' axis has a category or ranking scale. Negative values can be displayed below the 'x' axis.",
   mod17:
     "A column chart is a method of displaying data with categories (sometimes called vertical bar charts) represented by a rectangle. It provides a set of Dec items and trend analysis for easy comparison. In general, statistics and figures are difficult to understand when presented in tables or in writing. Column charts make things easy, fast and understandable.",
-  mod18: "",
+  mod18: "Source",
 };

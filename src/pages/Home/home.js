@@ -1,36 +1,25 @@
-import QuestionForm from "../../components/QuestionForm";
+import Box from "@mui/material/Box";
+import Grid from "@mui/material/Grid";
+import Paper from "@mui/material/Paper";
+import Typography from "@mui/material/Typography";
 import { BarChart } from "../../components/BarChart";
 import { LineChart } from "../../components/LineChart";
-import Grid from "@mui/material/Grid";
-import Typography from "@mui/material/Typography";
-import Box from "@mui/material/Box";
-import Paper from "@mui/material/Paper";
+import QuestionForm from "../../components/QuestionForm";
 
-import { StackedBarChart } from "../../components/StackedBarChart";
-import { PieChart } from "../../components/PieChart";
-import { HorizontalBarChart } from "../../components/HorizontalBarChart";
-import TreeMapGraph from "../../components/TreeMap";
-import { Donut } from "../../components/Doughnut";
-import { ScatterPlot } from "../../components/ScatterPlot";
-import { ColumnGraph } from "../../components/ColumnGraph";
-import MapChart from "../../components/MapChart";
-import { FullStackedBar } from "../../components/FullStackedBar";
-import { StackedBar } from "../../components/StackedBar";
-import { SmallMultiples } from "../../components/SmallMultiples";
-import { BubbleChart } from "../../components/BubbleChart";
-import AreaGraph from "../../components/AreaGraph";
-import CollapseBar from "../../components/Collapse";
-import DotPlot from "../../components/DotPlot";
-import { BackToGraph } from "../../components/BackToGraph";
+import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
-import { useState, useEffect } from "react";
-import Chartİnfo from "../../components/ChartİnfoCollapse";
+import AreaGraph from "../../components/AreaGraph";
+import { BubbleChart } from "../../components/BubbleChart";
+import { ColumnGraph } from "../../components/ColumnGraph";
 import BenchmarkLine from "../../components/ComposedChart";
-import SimpleRadarChart from "../../components/SimpleRadarChart";
-import PercentAreaChart from "../../components/PercentAreaChart";
-import LineHistogram from "../../components/LineHistogram";
-import KeepMountedModal from "../../components/KeepMountedModal";
 import HistogramChart from "../../components/HistogramChart";
+import KeepMountedModal from "../../components/KeepMountedModal";
+import PercentAreaChart from "../../components/PercentAreaChart";
+import { PieChart } from "../../components/PieChart";
+import { ScatterPlot } from "../../components/ScatterPlot";
+import SimpleRadarChart from "../../components/SimpleRadarChart";
+import { SmallMultiples } from "../../components/SmallMultiples";
+import { StackedBar } from "../../components/StackedBar";
 import i18n from "../../constants/i18n";
 
 const Home = () => {
@@ -140,6 +129,7 @@ const Home = () => {
                   </Grid>
                   <KeepMountedModal
                     bold="true"
+                    link="https://datavizcatalogue.com/TR/yontemleri/dagilim_grafigi.html#:~:text=Da%C4%9F%C4%B1l%C4%B1m%20Grafi%C4%9Fi%2C%20iki%20de%C4%9Fi%C5%9Fkenin%20de%C4%9Ferlerini,mevcut%20olup%20olmad%C4%B1%C4%9F%C4%B1n%C4%B1%20tespit%20edilebilir."
                     title={t("tex21")}
                     description={t("mod1")}
                     url={
@@ -186,6 +176,7 @@ const Home = () => {
                   </Grid>
                   <KeepMountedModal
                     bold="true"
+                    link="https://datavizcatalogue.com/TR/yontemleri/balon_grafik.html"
                     title={t("tex31")}
                     description={t("mod2")}
                     url={
@@ -232,6 +223,7 @@ const Home = () => {
                   </Grid>
                   <KeepMountedModal
                     bold="true"
+                    link="https://tr.wiki-base.com/7772950-100-stacked-column-chart"
                     title={t("tex32")}
                     description={t("mod3")}
                     url={
@@ -278,6 +270,7 @@ const Home = () => {
                   </Grid>
                   <KeepMountedModal
                     bold="true"
+                    link="https://datavizcatalogue.com/TR/yontemleri/yigilmis_cubuk_grafigi.html#:~:text=Tan%C4%B1m,%C3%BCzerindeki%20oran%C4%B1n%C4%B1%20g%C3%B6stermek%20i%C3%A7in%20kullan%C4%B1l%C4%B1rlar."
                     title={t("tex33")}
                     description={t("mod4")}
                     url={
@@ -324,6 +317,7 @@ const Home = () => {
                   </Grid>
                   <KeepMountedModal
                     bold="true"
+                    link="https://tr.wiki-base.com/7772946-100-stacked-area-chart"
                     title={t("tex34")}
                     description={t("mod5")}
                     url={
@@ -370,6 +364,7 @@ const Home = () => {
                   </Grid>
                   <KeepMountedModal
                     bold="true"
+                    link="https://datavizcatalogue.com/TR/yontemleri/istiflenmis_yigili_alan_grafigi.html"
                     title={t("tex35")}
                     description={t("mod6")}
                     url={
@@ -416,6 +411,7 @@ const Home = () => {
                   </Grid>
                   <KeepMountedModal
                     bold="true"
+                    link="https://datavizcatalogue.com/TR/yontemleri/pasta_grafik.html"
                     title={t("tex36")}
                     description={t("mod7")}
                     url={
@@ -467,6 +463,7 @@ const Home = () => {
                   </Grid>
                   <KeepMountedModal
                     bold="true"
+                    link="https://support.microsoft.com/tr-tr/office/%C5%9Felale-grafik-olu%C5%9Fturma-8de1ece4-ff21-4d37-acd7-546f5527f185#:~:text=%C5%9Eelale%20grafik%2C%20de%C4%9Fer%20eklenip%20%C3%A7%C4%B1kar%C4%B1ld%C4%B1k%C3%A7a,h%C4%B1zl%C4%B1%20bir%20%C5%9Fekilde%20ay%C4%B1rt%20edebilirsiniz."
                     title={t("tex37")}
                     description={t("mod8")}
                     url={
@@ -518,6 +515,7 @@ const Home = () => {
                   </Grid>
                   <KeepMountedModal
                     bold="true"
+                    link="https://datavizcatalogue.com/TR/yontemleri/histogram.html"
                     title={t("tex38")}
                     description={t("mod3")}
                     url={"http://social.microsoft.com/Forums/getfile/19420/"}
@@ -562,6 +560,7 @@ const Home = () => {
                   </Grid>
                   <KeepMountedModal
                     bold="true"
+                    link="https://datavizcatalogue.com/TR/yontemleri/histogram.html"
                     title={t("tex39")}
                     description={t("mod9")}
                     url={
@@ -608,6 +607,7 @@ const Home = () => {
                   </Grid>
                   <KeepMountedModal
                     bold="true"
+                    link="https://datavizcatalogue.com/TR/yontemleri/histogram.html"
                     title={t("tex40")}
                     description={t("mod9")}
                     url={
@@ -654,6 +654,7 @@ const Home = () => {
                   </Grid>
                   <KeepMountedModal
                     bold="true"
+                    link="https://datavizcatalogue.com/TR/yontemleri/dagilim_grafigi.html#:~:text=Da%C4%9F%C4%B1l%C4%B1m%20Grafi%C4%9Fi%2C%20iki%20de%C4%9Fi%C5%9Fkenin%20de%C4%9Ferlerini,mevcut%20olup%20olmad%C4%B1%C4%9F%C4%B1n%C4%B1%20tespit%20edilebilir."
                     title={t("tex21")}
                     description={t("mod1")}
                     url={
@@ -705,6 +706,7 @@ const Home = () => {
                   </Grid>
                   <KeepMountedModal
                     bold="true"
+                    link="https://www.infragistics.com/help/winforms/chart-about-3d-area-charts"
                     title={t("tex41")}
                     description={t("mod10")}
                     url={
@@ -751,6 +753,7 @@ const Home = () => {
                   </Grid>
                   <KeepMountedModal
                     bold="true"
+                    link="https://www.emathzone.com/tutorials/basic-statistics/simple-bar-chart.html"
                     title={t("tex42")}
                     description={t("mod11")}
                     url={
@@ -802,6 +805,7 @@ const Home = () => {
                   </Grid>
                   <KeepMountedModal
                     bold="true"
+                    link="https://www.dundas.com/support/learning/documentation/data-visualizations/how-to/how-to-create-a-variable-width-column-chart#:~:text=A%20variable%20width%20column%20chart%2C%20also%20known%20as%20a%20bar,each%20category%20in%20the%20data."
                     title={t("tex43")}
                     description={t("mod12")}
                     url={
@@ -849,6 +853,7 @@ const Home = () => {
                   </Grid>
                   <KeepMountedModal
                     bold="true"
+                    link="https://datavizcatalogue.com/TR/yontemleri/coklu_cubuk_grafik.html"
                     title={t("tex44")}
                     description={t("mod13")}
                     url={
@@ -900,6 +905,7 @@ const Home = () => {
                   </Grid>
                   <KeepMountedModal
                     bold="true"
+                    link="https://radacad.com/table-with-embeded-chart-in-power-bi-using-r"
                     title={t("tex45")}
                     description={t("mod14")}
                     url={
@@ -946,6 +952,7 @@ const Home = () => {
                   </Grid>
                   <KeepMountedModal
                     bold="true"
+                    link="https://datavizcatalogue.com/TR/yontemleri/radar_grafigi.html"
                     title={t("tex46")}
                     description={t("mod15")}
                     url={
@@ -992,6 +999,7 @@ const Home = () => {
                   </Grid>
                   <KeepMountedModal
                     bold="true"
+                    link="https://datavizcatalogue.com/TR/yontemleri/cizgi_grafik.html"
                     title={t("tex47")}
                     description={t("mod16")}
                     url={
@@ -1038,6 +1046,7 @@ const Home = () => {
                   </Grid>
                   <KeepMountedModal
                     bold="true"
+                    link="https://www.tibco.com/reference-center/what-is-a-column-chart"
                     title={t("tex48")}
                     description={t("mod17")}
                     url={
@@ -1084,6 +1093,7 @@ const Home = () => {
                   </Grid>
                   <KeepMountedModal
                     bold="true"
+                    link="https://datavizcatalogue.com/TR/yontemleri/cizgi_grafik.html"
                     title={t("tex49")}
                     description={t("mod16")}
                     url={

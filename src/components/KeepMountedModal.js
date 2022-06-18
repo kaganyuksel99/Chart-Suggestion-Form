@@ -25,6 +25,7 @@ export default function KeepMountedModal({
   url,
   content,
   bold,
+  link,
 }) {
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
@@ -93,6 +94,14 @@ export default function KeepMountedModal({
                 src={url}
               ></img>
             </Grid>
+            <Button
+              className="source"
+              variant="contained"
+              sx={{ mt: 3 }}
+              href={link}
+            >
+              {t("mod18")}
+            </Button>
           </Grid>
         </Box>
       </Modal>

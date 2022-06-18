@@ -136,5 +136,5 @@ export default {
     "Çizgi grafikler, devam eden veya belirli bir zaman aralığında “sayısal” değişiklikleri göstermek için kullanılır. Çizgi grafikler gruplandırıldığında, Aralık verileri arasındaki eğilimleri ve ilişkileri gösterirler. Bu grafikler aynı zamanda olayların nasıl geliştiği ve devam ettiği açısından “büyük resmi” anlamaya yardımcı olur. Bir çizgi grafiği oluşturmak için önce kartezyen koordinat sistemindeki veri noktalarını işaretlemek gerekir. Daha sonra 'x' ve 'y' ekseni arasındaki noktalar bir çizgi ile bağlanır Dec Tipik olarak, 'y' ekseni 'nicel'(sayısal) bir değere sahipken, 'x' ekseni bir kategori veya sıralama ölçeğine sahiptir. Negatif değerler 'x' ekseninin altında görüntülenebilir.",
   mod17:
     "Sütun grafiği, verileri bir dikdörtgenle temsil edilen kategorilerle (bazen dikey çubuk grafikler olarak adlandırılır) görüntüleme yöntemidir. Kolay karşılaştırma Dec öğeleri ve trend analizi bir dizi sağlar. Genel olarak, istatistikler ve rakamlar tablolarda veya yazılı olarak sunulduğunda anlaşılması zordur. Sütun grafikleri işleri kolay, hızlı ve anlaşılır hale getirir.",
-  mod18: "",
+  mod18: "Kaynak",
 };
