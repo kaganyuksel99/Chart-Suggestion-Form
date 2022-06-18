@@ -603,7 +603,7 @@ const QuestionForm = ({
                         onClick={handleComparisonFewItems}
                         sx={{ mt: 1, mr: 1 }}
                       >
-                        {"Few Items"}
+                        {t("sec14")}
                       </Button>
                       <Button
                         className="btn1"
@@ -612,7 +612,7 @@ const QuestionForm = ({
                         onClick={handleComparisonManyItems}
                         sx={{ mt: 1, mr: 1 }}
                       >
-                        {"Many Items"}
+                        {t("sec13")}
                       </Button>
                     </>
                   )}
@@ -625,7 +625,7 @@ const QuestionForm = ({
                         onClick={handleDistributionFewItems}
                         sx={{ mt: 1, mr: 1 }}
                       >
-                        {"Few Items"}
+                        {t("sec14")}
                       </Button>
                       <Button
                         className="btn1"
@@ -634,7 +634,7 @@ const QuestionForm = ({
                         onClick={handleDistributionManyItems}
                         sx={{ mt: 1, mr: 1 }}
                       >
-                        {"Many Items"}
+                        {t("sec13")}
                       </Button>
                     </>
                   )}
@@ -691,7 +691,7 @@ const QuestionForm = ({
                         onClick={handleCompositionCOT}
                         sx={{ mt: 1, mr: 1 }}
                       >
-                        {"Changing Over Time"}
+                        {t("sec7")}
                       </Button>
                       <Button
                         className="btn1"
@@ -700,7 +700,7 @@ const QuestionForm = ({
                         onClick={handleCompositionStatic}
                         sx={{ mt: 1, mr: 1 }}
                       >
-                        {"Static"}
+                        {t("sec6")}
                       </Button>
                     </>
                   )}
@@ -713,7 +713,7 @@ const QuestionForm = ({
                         onClick={handleCompositionFewPeriod}
                         sx={{ mt: 1, mr: 1 }}
                       >
-                        {"Few Periods"}
+                        {t("sec15")}
                       </Button>
                       <Button
                         className="btn1"
@@ -722,7 +722,7 @@ const QuestionForm = ({
                         onClick={handleCompositionManyPeriods}
                         sx={{ mt: 1, mr: 1 }}
                       >
-                        {"Many Periods"}
+                        {t("sec16")}
                       </Button>
                     </>
                   )}
@@ -735,7 +735,7 @@ const QuestionForm = ({
                         onClick={handleCompositionFewPeriod}
                         sx={{ mt: 1, mr: 1 }}
                       >
-                        {"Few Periods"}
+                        {t("sec15")}
                       </Button>
                       <Button
                         className="btn1"
@@ -744,7 +744,7 @@ const QuestionForm = ({
                         onClick={handleCompositionManyPeriods}
                         sx={{ mt: 1, mr: 1 }}
                       >
-                        {"Many Periods"}
+                        {t("sec16")}
                       </Button>
                     </>
                   )}
@@ -757,7 +757,7 @@ const QuestionForm = ({
                         onClick={handleOrdm}
                         sx={{ mt: 1, mr: 1 }}
                       >
-                        {"Only Relative Differences Matter"}
+                        {t("sec17")}
                       </Button>
                       <Button
                         className="btn1"
@@ -766,7 +766,7 @@ const QuestionForm = ({
                         onClick={handleRaadf}
                         sx={{ mt: 1, mr: 1 }}
                       >
-                        {"Relative and Absolute Differences Matter"}
+                        {t("sec18")}
                       </Button>
                     </>
                   )}
@@ -779,7 +779,7 @@ const QuestionForm = ({
                         onClick={handleOrdm2}
                         sx={{ mt: 1, mr: 1 }}
                       >
-                        {"Only Relative Differences Matter"}
+                        {t("sec17")}
                       </Button>
                       <Button
                         className="btn1"
@@ -788,7 +788,7 @@ const QuestionForm = ({
                         onClick={handleRaadf2}
                         sx={{ mt: 1, mr: 1 }}
                       >
-                        {"Relative and Absolute Differences Matter"}
+                        {t("sec18")}
                       </Button>
                     </>
                   )}
@@ -801,7 +801,7 @@ const QuestionForm = ({
                         onClick={handleCompositionStaticSSOT}
                         sx={{ mt: 1, mr: 1 }}
                       >
-                        {"Simple Share of Total"}
+                        {t("sec19")}
                       </Button>
                       <Button
                         className="btn1"
@@ -810,7 +810,7 @@ const QuestionForm = ({
                         onClick={handleCompositionStaticAST}
                         sx={{ mt: 1, mr: 1 }}
                       >
-                        {"Accumulation or Subtraction to Total"}
+                        {t("sec20")}
                       </Button>
                       <Button
                         className="btn1"
@@ -819,7 +819,7 @@ const QuestionForm = ({
                         onClick={handleCompositionStaticCC}
                         sx={{ mt: 1, mr: 1 }}
                       >
-                        {"Components of Components"}
+                        {t("sec21")}
                       </Button>
                     </>
                   )}

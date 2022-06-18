@@ -71,7 +71,7 @@ export default {
   tex39: "Sütun Histogram",
   ex39: "Atom altı parçacıkların yüklerinin belirtildiği bir histogram grafiğidir. Veriler sütunlara eklenir ve renklendirilir. Ardından histogram grafiği oluşturulur.",
   tex40: "Çizgi Histogram",
-  ex40: "Histogram, bir grup veri noktasını kullanıcı tarafından belirtilen aralıkta düzenleyen grafiksel bir gösterimdir. Bir çubuk grafiğe benzer şekilde, bir histogram birçok veri noktası alarak ve bunları mantıksal Aralık veya kutulara gruplayarak bir veri serisini kolayca yorumlanabilir bir görüntüye yoğunlaştırır.",
+  ex40: "Dolar kurunun 2017, 2018, 2019, 2020, 2021 ve 2022 yıllarındaki Türk Lirası karşısındaki değeri çizgi histogram grafiğine aktarılmıştır. Kategoriler belirlenir, veriler eklenir.  Bir sütunun en üst kısımlarından diğerine bir çizgi çizilir ve bir grafik oluşturulur.",
   tex41: "3D Alan Grafiği",
   ex41: "3B alan grafiği, veriler arasında daha verimli karşılaştırma sağlar. Veriler eklenip uygun renkler verilerek bir grafik oluşturulur. Örnekte, düşük değerlere mavi renk tonu ve yüksek değerlere kırmızı renk tonu verilmiştir.",
   tex42: "Tek Çubuk Grafik",
@@ -103,7 +103,38 @@ export default {
   sec11: "Hayır",
   sec12: "Bir veya Birkaç Öğe",
   sec13: "Birçok Öğe",
-  mod1: "Bir dağılım grafiği (aka dağılım grafiği, dağılım grafiği), iki farklı sayısal değişkenin değerlerini temsil etmek için noktaları kullanır. Yatay ve dikey eksendeki her noktanın konumu, tek bir veri noktası için değerleri belirtir. Değişkenler arasındaki ilişkileri gözlemlemek için dağılım grafikleri kullanılır",
-  mod2: "Kabarcık grafiği, iki boyutlu bir grafikte birden çok daire (kabarcık) görüntüleyen bir veri görselleştirmesidir. Bu, noktaları kabarcıklarla değiştirerek dağılım grafiğinin genelleştirilmesidir. En yaygın olarak, bir kabarcık grafiği, her gözlemin verilerinin bir daire (kabarcık) ile gösterildiği üç sayısal değişkenin değerlerini gösterirken, balonun yatay ve dikey konumları diğer iki değişkenin değerlerini gösterir.",
-  mod3: "",
+  sec14: "Birkaç Öğe",
+  sec15: "Birkaç Dönem",
+  sec16: "Birçok Dönem",
+  sec17: "Göreceli Farklılıklardan Biri Önemlidir",
+  sec18: "Göreceli ve Mutlak Farklılıklar Önemlidir",
+  sec19: "Toplamın Basit Payı",
+  sec20: "Toplamda Toplama veya Çıkarma",
+  sec21: "Bileşenlerin Bileşeni",
+  mod1: "Dağılım Grafiği, iki değişkenin değerlerini görüntülemek için kartezyen koordinatlar kullanılarak yerleştirilen bir noktalar topluluğu kullanır. Her eksende bir değişken görüntülenerek, iki değişken arasındaki ilişkinin veya korelasyonun mevcut olup olmadığını tespit edilebilir.",
+  mod2: "Kabarcık Grafikleri, Dağılım Grafiği gibi bir kartezyen koordinat sistemi kullanarak sayısal bir sistem etrafında çalışırken, X ve Y eksenleri değişken değerler alır. Buna rağmen, bir Dağılım Grafiğinin aksine, her nokta bir katman veya kategori belirtmek için kullanılabilir. (Bir gösterge veya sıralama şeklinde). Çizilen her nokta kendi kapsama alanı içinde üçüncü bir değişkeni temsil eder. Değişkeni bir eksen üzerindeki veri değişkenleri akışında göstererek zamanlamayı gösterir. Renklendirme, kategorileri ayırmak veya Ekim veri değişkenlerini ayırt etmek için kullanılabilir.",
+  mod3: "%100 yığılmış sütun grafiği, yığılmış sütunların toplamının (kümülatif) her zaman %100'e eşit olduğu, yığılmış sütunlarda birden çok veri serisinin göreli yüzdesini göstermesi amaçlanan bir Excel grafik türüdür. %100 yığılmış sütun grafiği, zaman içinde parçadan bütüne oranları gösterebilir, örneğin bölge başına üç aylık satışların oranı veya faize karşı anaparaya giden aylık ipotek ödemesinin oranı.",
+  mod4: "Sütunları yan yana görüntüleyen Çoklu Çubuk Grafiği’nin aksine Yığılmış Çubuk Grafikleri, çoklu veri setinin sütunlarını birbiri üzerinden böler. Daha büyük bir kategorinin daha küçük kategorilere nasıl bölündüğünü ve her parçanın ilişkisinin toplam miktar üzerindeki oranını göstermek için kullanılırlar.",
+  mod5: "% 100 Yığılmış Alan Grafiği, verilerin alan olarak çizildiği ve kümülatif alanın her zaman% 100'ü temsil edecek şekilde yığıldığı yerleşik bir Excel grafik türüdür. Yığılmış Alan grafikleri zaman içinde bir ilerleme ve kompozisyon gösterebilir ve% 100 Yığılmış Alan Grafiği, kümülatif toplam önemli olmadığında her bileşenin katkıda bulunduğu yüzdeyi göstermek içindir.",
+  mod6: "İstiflenmiş / Yığılı Alan Grafikleri, önceki grafik dizisinin bıraktığı noktadan her noktaya başlamak üzere basit Alan Grafiklerinde olduğu gibi çalışır, tek farkı birden çok veri serisinin görselleştirilmesidir. Grafiğin tamamı gösterilen tüm verilerin toplamını temsil eder. İstiflenmiş/ yığılmış alan grafikleri de alanı tam sayıları iletmek için kullanır, bu nedenle negatif değerler için kullanılmazlar. Genel olarak, bir aralıkta değişen çoklu değişkenleri karşılaştırmak için kullanışlıdırlar.",
+  mod7: "Sunumlar ve ofislerde yaygın olarak kullanılan Pasta Grafikler, bir daireyi orantılı bölümlere bölerek, kategoriler arasında oranlar ve yüzdeler göstermeye yardımcı olur. Her bir yay uzunluğu her bir kategorinin bir oranını temsil ederken, tam daire % 100'e eşit olan tüm verilerin toplamını temsil eder. Pasta grafikleri, okuyucunun verilerin orantılı dağılımı hakkında hızlı bir fikir vermek için idealdir.",
+  mod8: "Şelale grafik, değer eklenip çıkarıldıkça değişen toplamı gösterir. Bir başlangıç değerinin (örneğin, net gelir) bir dizi pozitif ve negatif değerlerden nasıl etkilendiğini anlamak için kullanışlıdır. Sütunlar renk kodludur ve böylece pozitif negatif sayıları hızlı bir şekilde ayırt edebilirsiniz. İlk ve son değer sütunları çoğu zaman yatay eksen üzerinde başlarken,ara değerler kayan sütunlar olur. Bu 'görünüşü' nedeniyle, Şelale grafiklere köprü grafikler de denir.",
+  mod9: "Verilerin devam eden veya belirli zaman aralığı dağılımını göstermek için bir 'Histogram' grafiği kullanılır. Histogramdaki her çubuk / Aralık, bölmedeki verilerin değerini gösterir. Tüm çubuklarının gösterdiği değerlerin toplamı, grafikte kullanılan verilerin sayısal değerine eşittir.Histogramlar değerlerin nerede yoğunlaştığını, maksimum ve minimum noktalarını, veriler arasındaki kopmalar ve olağandışı değerler olup olmadığı hakkında tahminde bulunulmasına yardımcı olur. Ayrıca “olasılık” dağılımı hakkında genel bir izlenim vermeleri bakımından yararlıdırlar. ",
+  mod10:
+    "3B alan grafiği, belirli bir süre içindeki değişiklik miktarını vurgular veya birden çok öğeyi karşılaştırır. 3B alan grafikleri, çizilen değerlerin toplamını görüntüleyerek parçaların bir bütünle ilişkisini de gösterir. Ekim alanı grafiği bir çizgi grafiği biçimidir, ancak x ekseni (yatay eksen) ile veri işaretleyicilerini birbirine bağlayan çizgi arasındaki boşluk Aralık ile doldurulur. Bu, farklı veri serilerinin kapsadığı noktaların nerede çakıştığını görmeyi kolaylaştırır.",
+  mod11:
+    "Basit bir çubuk grafik, uzamsal, nicel veya zamansal olarak sınıflandırılan yalnızca bir değişken içeren verileri temsil etmek için kullanılır. Basit bir çubuk grafikte, eşit genişlikte ancak değişken uzunlukta çubuklar yaparız, yani bir miktarın boyutu çubukların yüksekliği veya uzunluğu ile temsil edilir.",
+  mod12:
+    "Çubuk Mekko grafiği olarak da bilinen değişken genişlikli sütun grafiği, sütun genişliklerinin, toplam genişlik istenen grafik genişliğiyle eşleşecek ve sütunlar arasında boşluk kalmayacak şekilde ölçeklendirildiği bir çubuk grafiktir. Bu grafik, verilerdeki her kategori için iki farklı değişkenin değerlerini izlemek için kullanılabilir.",
+  mod13:
+    "Gruplanmış Çubuk Grafik veya Kümelenmiş Çubuk Grafiği olarak da bilinir. Çubuk grafiğin bu varyasyonu, iki veya daha fazla veri serisi yan yana çizilmekte ve kategoriler altında aynı eksende gruplandığında kullanılmaktadır. Çubuk grafikler gibi, her çubuğun uzunluğu kategoriler arasında ayrık, sayısal karşılaştırmalar yapmak için kullanılır. Her bir veri serisine, onları ayırt etmek için tek bir renk veya aynı renkteki değişen bir gölge atanır. Her bir sütun grubu birbirinden ayrı durur.",
+  mod14:
+    "Görselleştirme, aşağıdakileri yapmamızı sağlayan her türlü grafik temsilidir: Keşif , büyük miktarda veri aracılığıyla daha derin bir içgörü elde etmemize yardımcı olur. Keşif , büyük miktarda veri aracılığıyla daha derin bir içgörü elde etmemize yardımcı olur, Ortaya çıkarmak ayrıca ekstra görüş sağlar, Analiz desen bulmak için kullanılabilir, İletişim , görselleştirme daha iyi iletişim kurmamıza yardımcı olur.",
+  mod15:
+    "Örümcek Grafiği, Ağ Şeması, Kutup Şeması, Yıldız Çizimi olarak da bilinir. Radar grafiği, çoklu nicel değişkenleri karşılaştırmak için kullanılır. Hangi değişkenlerin benzer değerlere sahip olduğunu veya değişkenler arasındaki sapmaları göstermek için faydalıdır. Bununla birlikte, radar grafiği, bir veri seti içindeki değişkenlerin yüksek veya alçak değerlerini görmek ve bunların performanslarının karşılaştırılmasına da olanak tanır.",
+  mod16:
+    "Çizgi grafikler, devam eden veya belirli bir zaman aralığında “sayısal” değişiklikleri göstermek için kullanılır. Çizgi grafikler gruplandırıldığında, Aralık verileri arasındaki eğilimleri ve ilişkileri gösterirler. Bu grafikler aynı zamanda olayların nasıl geliştiği ve devam ettiği açısından “büyük resmi” anlamaya yardımcı olur. Bir çizgi grafiği oluşturmak için önce kartezyen koordinat sistemindeki veri noktalarını işaretlemek gerekir. Daha sonra 'x' ve 'y' ekseni arasındaki noktalar bir çizgi ile bağlanır Dec Tipik olarak, 'y' ekseni 'nicel'(sayısal) bir değere sahipken, 'x' ekseni bir kategori veya sıralama ölçeğine sahiptir. Negatif değerler 'x' ekseninin altında görüntülenebilir.",
+  mod17:
+    "Sütun grafiği, verileri bir dikdörtgenle temsil edilen kategorilerle (bazen dikey çubuk grafikler olarak adlandırılır) görüntüleme yöntemidir. Kolay karşılaştırma Dec öğeleri ve trend analizi bir dizi sağlar. Genel olarak, istatistikler ve rakamlar tablolarda veya yazılı olarak sunulduğunda anlaşılması zordur. Sütun grafikleri işleri kolay, hızlı ve anlaşılır hale getirir.",
+  mod18: "",
 };

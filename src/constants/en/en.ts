@@ -66,7 +66,7 @@ export default {
   tex39: "Column Histogram",
   ex39: "It is a histogram graph in which the charges of subatomic particles are indicated. The data is added to the columns and colored. Then the histogram graph is created.",
   tex40: "Line Histogram",
-  ex40: "A histogram is a graphical representation that organizes a group of data points within a user-specified December. Similar to a bar chart, a histogram condenses a data series into an easily interpretable image by taking many data points and grouping them into logical December or boxes.",
+  ex40: "The value of the dollar exchange rate against the Turkish lira in 2017, 2018, 2019, 2020, 2021 and 2022 has been transferred to the line histogram chart. Categories are determined, data are added. A line is drawn from the uppermost parts of one column to the other and a graph is created.",
   tex41: "3D Area Chart",
   ex41: "The 3D area chart provides more efficient comparison between data. A graph is created by adding data and giving appropriate colors. In the example, low values are given a blue hue and high values are given a red hue.",
   tex42: "Single Bar Chart",
@@ -96,9 +96,40 @@ export default {
   sec9: "Few Periods",
   sec10: "Yes",
   sec11: "No",
-  sec12: "Single or Few İtems",
-  sec13: "Many İtems",
-  mod1: "A scatter plot (aka scatter plot, scatter plot) uses points to represent the values of two different numeric variables. The position of each point on the horizontal and vertical axes specifies the values for a single data point. Distribution graphs are used to observe the relationships Dec variables.",
-  mod2: "A bubble chart is a data visualization that displays multiple circles (bubbles) on a two-dimensional chart. This is a generalization of the distribution graph by replacing points with bubbles. Most commonly, a bubble graph shows the values of three numerical variables, in which the data of each observation is indicated by a circle (bubble), while the horizontal and vertical positions of the bubble indicate the values of the other two variables.",
-  mod3: "",
+  sec12: "Single or Few Items",
+  sec13: "Many Items",
+  sec14: "Few Items",
+  sec15: "Few Periods",
+  sec16: "Many Periods",
+  sec17: "Only Relative Differences Matter",
+  sec18: "Relative and Absolute Differences Matter",
+  sec19: "Simple Share of Total",
+  sec20: "Accumulation or Subtraction to Total",
+  sec21: "Components of Components",
+  mod1: "The Scatter Plot uses a collection of points placed using cartesian coordinates to display the values of two variables. By displaying a variable on each axis, it Dec be determined whether there is a relationship or correlation between the two variables.",
+  mod2: "Bubble Graphs operate around a numerical system using a cartesian coordinate system such as a Scatter Plot, while the X and Y axes take variable values. Despite this, unlike a Scatter Plot, each point can be used to specify a layer or category. (In the form of an indicator or ranking). Each plotted point represents a third variable within its own coverage area. It shows the schedule by showing the variable in a flow of data variables on an axis. Coloring can be used to separate categories or to distinguish October data variables.",
+  mod3: "A 100% stacked column chart is a type of Excel chart that aims to show the relative percentage of multiple data series in stacked columns, where the sum of stacked columns (cumulative) is always equal to 100%.  a 100% stacked Dec chart can show part-to-pay ratios over time, such as the ratio of quarterly sales per region or the ratio of monthly mortgage payment between principal and interest.",
+  mod4: "In contrast to a Multi-Bar Chart that displays columns side by side, Stacked Bar Charts divide the columns of a multiple dataset on top of each other. They are used to show how a larger category is divided into smaller categories and the ratio of the relationship of each part on the total amount.",
+  mod5: " A 100% Stacked Area Chart is a built-in Excel chart type in which data is plotted as fields and stacked so that the cumulative area always represents 100%. Stacked Area graphs can show a progression and composition over time, and a 100% Stacked Area Graph is meant to show the percentage that each component contributes when the cumulative total is not important.",
+  mod6: "Stacked/Stacked Field Graphs work the same way as simple Field Graphs, starting at every point left by the previous graph sequence, except that multiple data series are visualized. The entire graph represents the sum of all the data shown. Stacked/stacked field graphs also use the field to transmit integers, so they are not used for negative values. In general, they are useful for comparing multiple variables that vary within an December.",
+  mod7: "Pie Charts, which are widely used in presentations and offices, help to Decouple a circle into proportional sections, showing proportions and percentages between categories. The length of each arc represents a proportion of each category, while the full circle represents the sum of all data equal to 100%. Pie charts are ideal for giving the reader a quick idea of the proportional distribution of data.",
+  mod8: "The following graph shows the sum that changes as the value is added and subtracted. It is useful to understand how an initial value (for example, net income) is affected by a number of positive and negative values. The columns are color coded so you can quickly distinguish positive from negative numbers. The October and last value columns often start on the horizontal axis,while Dec intermediate values become floating columns. Because of this 'appearance', these graphs are also called bridge graphs.",
+  mod9: "A 'Histogram' chart is used to show the ongoing or specific time December distribution of data. Each bar / December in the histogram indicates the value of the data in the pane. The sum of the values shown by all its bars is equal to the numerical value of the data used in the graph. Histograms help to estimate where the values are concentrated, their maximum and minimum points, Decouples between the data, and whether there are unusual values. They are also useful in that they give a general impression of the 'probability' 'distribution'.",
+  mod10:
+    "A 3D field chart highlights the amount of changes over a certain period of time or compares multiple items. 3D field graphs also show the relationship of parts to a whole by displaying the sum of the plotted values. October field graph is a form of a line graph, but the space between the x-axis (horizontal axis) and the line connecting the data markers is filled with Dec. This makes it easier to see where the points covered by different data series coincide.",
+  mod11:
+    "A simple bar chart is used to represent data that contains only one variable, which is classified as spatial, quantitative, or temporal. In a simple bar chart, we make bars of equal width but variable length, that is, the size of an amount is represented by the height or length of the bars.",
+  mod12:
+    "A variable-width Dec December chart, also known as a bar chart, is a bar chart in which column widths are scaled so that the total width matches the desired chart width and that there are no gaps between columns.This graph can be used to track the values of two different variables for each category in the data.",
+  mod13:
+    "It is also known as a Grouped Bar Chart or Clustered Bar Chart. This variation of the bar chart is used when two or more data series are plotted side by side and grouped on the same axis under categories. Like bar charts, the length of each bar is used to make Decoupled, numerical comparisons between categories. Each data series is assigned a single color or a changing shade of the same color to distinguish them. Each group of columns stands apart from each other.",
+  mod14:
+    "Visualization is any kind of graphical representation, please allow us: Exploration, it help us to get more deep insight through huge amount of data, Discovery, It also gives extra vision, Analysis, it can be used to find pattern, Communication, visualization help us to communicate better.",
+  mod15:
+    "It is also known as Spider Chart, Web Chart, Polar Chart, Star Chart. The radar plot is used to compare multiple quantitative variables. It is useful for Deciphering which variables have similar values, or to show deviations between variables. However, the radar graph also allows you to see the high or low values of variables in a dataset and compare their performance.",
+  mod16:
+    "Line charts are used to show “numerical” changes that are ongoing or December a certain time interval. When line graphs are grouped, they show trends and relationships Dec December data. These graphs also help to understand the “big picture” in terms of how events are developing and continuing. To create a line graph, it is first necessary to mark the data points in the cartesian coordinate system. Then the points between the 'x' and 'y' axis are connected by a line Dec Typically, the 'y' axis has a 'quantitative' (numerical) value, while the 'x' axis has a category or ranking scale. Negative values can be displayed below the 'x' axis.",
+  mod17:
+    "A column chart is a method of displaying data with categories (sometimes called vertical bar charts) represented by a rectangle. It provides a set of Dec items and trend analysis for easy comparison. In general, statistics and figures are difficult to understand when presented in tables or in writing. Column charts make things easy, fast and understandable.",
+  mod18: "",
 };
